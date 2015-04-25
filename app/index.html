@@ -12,6 +12,7 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/reveal.js/css/reveal.css">
     <link rel="stylesheet" href="/bower_components/reveal.js/css/theme/sky.css">
+    <link rel="stylesheet" href="/bower_components/reveal.js/lib/css/zenburn.css">
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -35,7 +36,86 @@
           <p>Garrett Nay, OpenWest 2015</p>
         </section>
         <section>
-          <h2>What is Firefox OS?</h2>
+          <section>
+            <h2>What is Firefox OS?</h2>
+          </section>
+          <section>
+            <ul>
+              <li>A free, open-source operating system powering phones, tablets,
+              and TVs</li>
+              <li>Everything is the Web—HTML, CSS, and JavaScript</li>
+              <li>APIs give access to device capabilities</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>Who uses Firefox OS?</h2>
+          </section>
+          <section>
+            <h3>More than you might think</h3>
+            <p>[map here]</p>
+          </section>
+          <section>
+            <h3>Takeaways</h3>
+            <ul>
+              <li>Localization is important</li>
+              <li>Many first-time smartphone users</li>
+              <li>Lower-powered devices</li>
+              <li>Limited connectivity</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>What makes a Firefox OS app?</h2>
+          </section>
+          <section>
+            <p>It’s just a Web app</p>
+            <p class="fragment">. . . or is it?</p>
+          </section>
+          <section>
+            <h3>The app manifest</h3>
+            <pre><code class="hljs json">
+{
+  "name": "My App",
+  "description": "An amazing app that does things",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/images/icon128.png",
+    "512": "/images/icon512.png"
+  },
+  "developer": {
+    "name": "Garrett Nay",
+    "url": "http://garrettn.github.io"
+  },
+  "type": "privileged"
+}
+            </code></pre>
+          </section>
+          <section>
+            <h3>Publication options</h3>
+          </section>
+          <section>
+            <h3>Permission levels</h3>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>Gotchas</h2>
+          </section>
+          <section>
+            <h3>Content Security Policy</h3>
+          </section>
+          <section>
+            <h3>Privacy</h3>
+          </section>
+        </section>
+        <section>
+          <h2>Let’s do it!</h2>
+        </section>
+        <section>
+          <h2>Thank you!</h2>
         </section>
       </div>
     </div>
@@ -43,6 +123,7 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/reveal.js/js/reveal.js"></script>
+    <script src="/bower_components/reveal.js/plugin/highlight/highlight.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
