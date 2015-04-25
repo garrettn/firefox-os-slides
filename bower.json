@@ -2,6 +2,7 @@
   "name": "firefox-os",
   "private": true,
   "dependencies": {
-    "modernizr": "~2.8.1"
+    "modernizr": "~2.8.1",
+    "reveal.js": "hakimel/reveal.js#20d858deb888fe0ec0ba92a919c8a0526ac52a2e"
   }
 }
