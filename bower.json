@@ -1,0 +1,7 @@
+{
+  "name": "firefox-os",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.8.1"
+  }
+}
