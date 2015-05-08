@@ -1,4 +1,8 @@
 /* jshint devel:true */
+/* global Reveal, hljs, Datamap */
+
+'use strict';
+
 Reveal.initialize({
   history: true
 });
