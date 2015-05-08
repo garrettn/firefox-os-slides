@@ -1,5 +1,6 @@
 /* jshint devel:true */
 Reveal.initialize({
+  history: true
 });
 
 document.addEventListener('DOMContentLoaded', function () {
